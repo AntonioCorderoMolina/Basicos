@@ -1,0 +1,61 @@
+/*****************************************************/
+/*         hoja de estilo de tortilla.html           */
+/*         autora: Pilar González Augusto            */
+/*         version: 1.0                              */
+/*         fecha: octubre de 2023                    */
+/*         comentario: trabajo de lenguajes de m     */
+/*****************************************************/
+
+/* buscar un par de fuentes que convinen, para títulos y para contenido */
+/*@font-face{ src:url()   ;
+            font-family:  ;
+           }*/
+
+/* Poner SIEMPRE que utilizamos un layuot complejo */
+/* las medidas de ancho y alto se deben calcuclar del borde hacia adentro */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../img/mantel.jpg);
+  background-size: 80%;          /* cambia el tamaño de fondo*/ 
+  margin:0;padding:0;            /* para que el wrapper se pegue a body */
+  font-size: 1.2em;              /* 1em es el tamaño normal de la letra. em y rem son medidas exclusivas para texto. 
+                                1.5em aumenta un 50% al que venía por defecto. Tamaño en px para el texto por defecto no*/
+}
+
+#wrapper {
+  width:80%;                     /* para width, la medida suele ser en porcentaje */
+  margin:auto;
+  padding: 5%;
+  background-color: #fff;
+}
+
+h1, h2 {
+  /*margin-left: 2%;*/
+  text-align: justify;
+}
+
+dt {
+  font-weight: bold;            /*weight es el peso de la letra*/
+  font-variant: small-caps;     /*formateo de la fuente - small-caps: formatea las capital letters*/
+  color: crimson;
+  text-decoration-line: overline underline; 
+}
+
+blockquote {
+  font-style: italic;
+  border-left: 4px solid purple;
+  padding: 10px;
+  background-color: rgb(222, 217, 227);
+  text-indent: 2em;             /* indentación de texto, hace sangría a cada primera línea del párrafo*/
+}
+
+ul {
+  list-style-image: url(../img/bullet_ball_yellow.png);
+}
+
+img {
+  float: right;   /* Forma de colocar la imagen en una zona del body y wrapper haciendo que el texto se reorganice en cuanto a la imagen */
+}

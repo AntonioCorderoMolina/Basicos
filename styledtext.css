@@ -1,0 +1,20 @@
+/****************************************************************/
+/*                 estilo para styledtext.html                  */
+/*                 autor: Antonio Cordero                       */
+/*                 vesion: 1.0                                  */
+/*                 Comentario: practicando css externo          */
+/****************************************************************/
+
+/*Selectores de etiqueta */
+body{background-color: black;
+    color: white}
+h2 {color: salmon}
+
+/*Selector de id, único */
+#emcabezadop1 {text-align: right;}
+
+/*selector de de class, colectivo */
+.centrado {text-align: center;}
+
+/*Selector contextual, añade contexto, más de un selector separados con espacios */
+.centrado b {color: red;}

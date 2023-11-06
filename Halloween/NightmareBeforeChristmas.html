@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nightmare Before Christmas</title>
+    <link rel="stylesheet" href="./css/NightmareBeforeChristmas.css">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <!-- aquí enlazamos el archivo externo con las funciones de js -->
+    <script src="./js/nightmareBeforeChristmas.js"></script>
+</head>
+
+<body>
+    <!-- this exercise is made just for fun -->
+    <!-- WARNING: it's not RESPONSIVE, only for computers and laptops -->
+    <!-- I have to search for an image, a wallpaper image -->
+
+    <div id= "scenario">
+
+        <!-- we're going to fix an specific area for an event, for example the tower -->
+        <div id="tower" onmouseover="show('vampire')" onmouseover="hide('vampire')">
+        <img id="vampire" src="./img/2018-i-am-dracula-animation.gif" alt="vampire_gif">
+            <!-- nothing inside -->
+        </div>
+
+        <div id="pumpkin" onclick="show('bat')">
+            <!-- nothing inside -->
+        </div>
+
+        <div id="lamp" onmouseover="show('ghost')" onmouseover="hide('ghost')">
+            <!-- nothing inside -->
+        </div>
+
+
+    </div>
+
+</body>
+</html>

@@ -53,5 +53,6 @@ body {
     width: 100x;
     height: 100px;
     left: 50px;
-    display: none;
+    /*display: none; /* de entrada el gif no se ve*/
+    visibility: hidden;
 }

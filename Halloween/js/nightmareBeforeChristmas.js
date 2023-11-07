@@ -7,10 +7,10 @@
  * *******************************************************/
 
 
-function show() {
-
+function show(element) {
+    document.getElementById(element).style.visibility="visible";
 }
 
-function hide() {
-    
+function hide(element) {
+    document.getElementById(element).style.visibility="hidden";
 }
